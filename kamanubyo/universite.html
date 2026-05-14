@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kırşehir Ahi Evran Üniversitesi Kaman Meslek Yüksekokulu ve Uygulamalı Bilimler Yüksekokulu hakkında bilgiler.">
+    <title>Üniversite | Kaman Tanıtım Portalı</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Bu sayfaya özel ek stiller */
+        .uni-card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .uni-card {
+            background-color: #ffffff;
+            border-bottom: 5px solid #C9A227; /* Altın Sarısı Vurgu */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .uni-card h3 {
+            text-align: left;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #F8F4EA;
+            padding-bottom: 10px;
+        }
+
+        .program-list {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .program-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+            font-size: 0.95rem;
+        }
+
+        .program-list li::before {
+            content: "•";
+            color: #C9A227;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .info-box {
+            background-color: #2F4F4F; /* Koyu Yeşil */
+            color: #F8F4EA;
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .info-box h2 {
+            color: #C9A227; /* Başlık Altın Sarısı */
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="hakkinda.html">Kaman Hakkında</a></li>
+        <li><a href="gezilecek-yerler.html">Gezilecek Yerler</a></li>
+        <li><a href="universite.html">Üniversite</a></li>
+        <li><a href="iletisim.html">İletişim</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <section>
+        <h1>Kaman'da Eğitim ve Üniversite Yaşamı</h1>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto;">
+            Kaman, Kırşehir Ahi Evran Üniversitesi'nin modern yerleşkelerine ev sahipliği yaparak genç ve dinamik bir nüfusa rehberlik etmektedir. İlçemizdeki akademik birimler, teknik ve uygulamalı alanlarda uzmanlaşmıştır.
+        </p>
+
+        <div class="uni-card-container">
+            <div class="uni-card">
+                <h3>Uygulamalı Bilimler Yüksekokulu</h3>
+                <p>4 yıllık lisans eğitimi veren bu kurum, geleceğin dijital dünyasına profesyoneller hazırlar.</p>
+                <ul class="program-list">
+                    <li>Yönetim Bilişim Sistemleri</li>
+                    <li>Uluslararası Ticaret ve Lojistik</li>
+                    <li>Bilişim Sistemleri Tasarımı</li>
+                </ul>
+            </div>
+
+            <div class="uni-card">
+                <h3>Kaman Meslek Yüksekokulu</h3>
+                <p>2 yıllık ön lisans programları ile sanayi ve tarım sektörüne nitelikli ara eleman yetiştirir.</p>
+                <ul class="program-list">
+                    <li>Gıda Teknolojisi</li>
+                    <li>Bilgisayar Programcılığı</li>
+                    <li>İnşaat Teknolojisi</li>
+                    <li>Harita ve Kadastro</li>
+                    <li>Makine ve Metal Teknolojileri</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <h2>Öğrenci Dostu Kaman</h2>
+            <p>Üniversite kampüsü çevresindeki barınma imkanları, sosyal tesisler ve Kaman'ın huzurlu doğası, öğrenciler için verimli bir akademik ortam sunmaktadır. Ayrıca Kaman Ceviz Festivali gibi etkinlikler öğrenci yaşamına renk katmaktadır.</p>
+            <div style="margin-top: 20px;">
+                <a href="https://kamanmyo.ahievran.edu.tr" target="_blank" class="btn">Resmi Web Sitesini Ziyaret Et</a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2026 Kaman Tanıtım Portalı - Tüm Hakları Saklıdır.</p>
+</footer>
+
+</body>
+</html>
