@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/  # Eğer WordPress kullanıyorsanız admin panelini engeller
+Disallow: /tmp/       # Geçici klasörleri engeller
+Disallow: /private/   # Gizli kalmasını istediğiniz klasörler
+
+# Site haritanızın konumunu botlara bildirin
+Sitemap: https://www.siteniz.com/sitemap.xml
