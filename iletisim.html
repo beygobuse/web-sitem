@@ -16,7 +16,7 @@
         <li><a href="index.html">Ana Sayfa</a></li>
         <li><a href="hakkinda.html">Kaman Hakkında</a></li>
         <li><a href="gezilecek-yerler.html">Gezilecek Yerler</a></li>
-        <li><a href="gastronomi.html" >Gastronomi</a></li>
+        <li><a href="gastronomi.html">Gastronomi</a></li>
         <li><a href="universite.html">Üniversite</a></li>
         <li><a href="iletisim.html">İletişim</a></li>
     </ul>
@@ -24,16 +24,18 @@
 
 <div class="container">
     <h2>Bizimle İletişime Geçin</h2>
-    <form>
+    
+    <form action="https://formsubmit.co/beygobuse@gmail.com" method="POST">
+        
         <label>Adınız Soyadınız</label>
-        <input type="text" placeholder="Adınızı giriniz...">
-        
+        <input type="text" name="isim" placeholder="Adınızı giriniz..." required>
+
         <label>E-posta Adresiniz</label>
-        <input type="email" placeholder="E-posta adresiniz...">
-        
+        <input type="email" name="email" placeholder="E-posta adresiniz..." required>
+
         <label>Mesajınız</label>
-        <textarea rows="5" placeholder="Mesajınızı buraya yazınız..."></textarea>
-        
+        <textarea name="mesaj" rows="5" placeholder="Mesajınızı buraya yazınız..." required></textarea>
+
         <button type="submit" class="btn">Gönder</button>
     </form>
 </div>
